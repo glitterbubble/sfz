@@ -1,0 +1,11 @@
+{
+  "name": "嵊方志 - 嵊州数字方志平台",
+  "short_name": "嵊方志",
+  "description": "存史以数、资政以智、育人以趣 - 嵊州省情地情一站式服务平台",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f2e9",
+  "theme_color": "#1f3a34",
+  "orientation": "portrait",
+  "icons": []
+}
