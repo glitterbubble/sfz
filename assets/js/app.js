@@ -93,7 +93,7 @@ var SFZ = (function() {
 
   /* ===== SVG图标HTML ===== */
   function icon(name, cls) {
-    return '<svg class="' + (cls || '') + '"><use href="#' + name + '"/></svg>';
+    return '<svg class="svg-icon ' + (cls || '') + '"><use href="#' + name + '"/></svg>';
   }
 
   /* ===== Toast ===== */
