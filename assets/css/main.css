@@ -79,6 +79,9 @@ input:focus, textarea:focus { outline: none; }
 img { display: block; max-width: 100%; }
 ul, ol { list-style: none; }
 
+/* SVG 图标兜底：未显式约束尺寸时一律 20px，避免浏览器默认 300x150 撑爆布局 */
+.svg-icon { width: 20px; height: 20px; vertical-align: middle; flex-shrink: 0; fill: currentColor; }
+
 /* ===== App容器 ===== */
 #app {
   width: 100%;
@@ -932,6 +935,8 @@ ul, ol { list-style: none; }
   overflow: hidden;
 }
 [data-theme="dark"] .map-page { background: #2a2d2b; }
+.map-header .back-btn svg { width: 22px; height: 22px; color: var(--ink); }
+.map-header .search-box svg { width: 18px; height: 18px; color: var(--muted); }
 .map-svg {
   position: absolute;
   inset: 0;
